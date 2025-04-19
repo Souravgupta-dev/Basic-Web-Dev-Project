@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.logo{
+    height:150px;
+    border: 1px double black;
+    background-color: snow;
+    background-image: url('back.jpeg');
+    background-size: cover;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+}
+.content{
+    background: scroll;
+    background-image: url('school.png');
+    background-blend-mode:hue;
+    background-size: cover;
+    height:1000px;
+    display:flex;
+    align-items:flex-start;
+    border:2px double black;
+    
+
+}
+button{
+    border: 1px double black;
+    background-color: azure;
+    color:black;
+    border-radius: 2%;
+    height:20px;
+    margin-top: 20px;
+
+}
+.mid{
+    margin-top:20px;
+    width: 1000px;
+}
+input{
+    border: 1px double black;
+    background-color: azure;
+    color:black;
+    border-radius: 2%;
+    height:25px;
+    margin-top: 20px;
+    
+}
+.end{
+    background-color: goldenrod;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.log:hover{
+    transform: scale(1.2,1.2);
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0ms;
+}
